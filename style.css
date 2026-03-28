@@ -23,7 +23,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation */
+
 header {
     position: fixed;
     top: 0;
@@ -63,7 +63,7 @@ nav {
     color: var(--primary-color);
 }
 
-/* Sections General */
+
 section {
     padding: 6rem 5% 4rem;
     min-height: 100vh;
@@ -82,7 +82,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* Buttons */
+
 .btn {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -101,7 +101,7 @@ h2 {
     box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
 }
 
-/* Hero Section */
+
 .hero {
     align-items: center;
     text-align: center;
@@ -131,7 +131,7 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-/* Skills Section */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -156,7 +156,7 @@ h2 {
     border-bottom: 3px solid var(--primary-color);
 }
 
-/* Projects Section */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -194,7 +194,7 @@ h2 {
     text-decoration: underline;
 }
 
-/* Contact Section */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -228,7 +228,7 @@ footer {
     color: #94a3b8;
 }
 
-/* Animation Classes applied by JS */
+
 .hidden {
     opacity: 0;
     transform: translateY(30px);
