@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ankit</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero hidden">
+        <div class="hero-content">
+            <h1>Hi, I'm a <span class="highlight">Frontend Developer</span></h1>
+            <p>I build interactive, scalable, and responsive web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about hidden">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>I am passionate about writing clean, efficient code and crafting intuitive user interfaces. I specialize
+                in building robust frontend architectures that bring ideas to life on the web.</p>
+            <p>
+                Frontend Developer with strong proficiency in HTML, CSS, JavaScript, and React.js, focused on building
+                responsive and user-friendly web applications.
+                Skilled in creating efficient, scalable, and visually appealing interfaces with modern development
+                practices.
+                Possesses solid problem-solving abilities and a keen eye for detail to deliver high-quality solutions.
+                Passionate about continuous learning and improving user experience through clean and optimized code.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills hidden">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">JavaScript (ES6+)</div>
+            <div class="skill-card">React.js</div>
+            <div class="skill-card">Redux Toolkit</div>
+            <div class="skill-card">HTML5 & CSS3</div>
+            <div class="skill-card">Responsive Design</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects hidden">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>E-Commerce Cart</h3>
+                <p>A responsive admin dashboard utilizing Redux Toolkit for complex state management and seamless UI
+                    updates.</p>
+                <a href="https://food-cart-blue.vercel.app/" target="_blank" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>SkyCast Pro</h3>
+                <p>An advanced weather application featuring a glassmorphism UI, real-time weather tracking via the OpenWeatherMap API, geolocation support, and dynamic temperature-based backgrounds.</p>
+                <a href="https://weather-app-ten-indol-29.vercel.app/" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact hidden">
+        <h2>Let's Connect</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> 2026 Frontend Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
